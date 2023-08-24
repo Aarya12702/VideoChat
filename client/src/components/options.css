@@ -1,0 +1,37 @@
+/* sidebarStyles.css */
+.root {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gridContainer {
+    width: 100%;
+  
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+  
+  .container {
+    width: 600px;
+    margin: 35px 0;
+    padding: 0;
+  
+    @media (max-width: 600px) {
+      width: 80%;
+    }
+  }
+  
+  .margin {
+    margin-top: 20px;
+  }
+  
+  .padding {
+    padding: 20px;
+  }
+  
+  .paper {
+    padding: 10px 20px;
+    border: 2px solid black;
+  }
+  
